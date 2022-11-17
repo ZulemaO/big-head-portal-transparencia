@@ -2,53 +2,50 @@ doctype html
 head
     meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
 
-    title Big-Head UI - Sign in
+    title Portal de Transparencia del Poder Ejecutivo del Estado de Hidalgo
     meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    meta(name='title' content='Big-Head UI - Sign in')
-    meta(name='author' content='Angel Erick Cruz')
-    link(rel='canonical' href='https://leganux.com')
+    meta(name='title' content='Portal de Transparencia del Poder Ejecutivo del Estado de Hidalgo')
+    meta(name='author' content='Espinosa Rodriguez Jasson Antonio')
     each val in Assets.css
         link(type='text/css' href=val rel='stylesheet')
 
 
 main
 
-    section.min-vh-100.d-flex.bg-primary.align-items-center
+    section.min-vh-100.d-flex.bg-dark.align-items-center
         .container
             .row.justify-content-center
                 .col-12.col-md-8.col-lg-6.justify-content-center
-                    .card.bg-primary.shadow-soft.border-light.p-4
+                    .card.bg-white.shadow-soft.border-light.p-3
                         .card-header.text-center.pb-0
-                            h2.h4 Sign in to Big-Head Control Panel
-                            img.img-fluid.rounded(src="/public/images/cabezon.jpg")
+                            h2.h4 Ingreso
+                            img.img-fluid.rounded(src="/public/images/gobierno_hidalgo.jpg" style='width:50%; height:50%;')
                         .card-body
                             .mt-4
 
                                 .form-group
-                                    label(for='user') Your user
+                                    label(for='user') Usuario
                                     .input-group.mb-4
                                         .input-group-prepend
                                             span.input-group-text
                                                 span.fas.fa-user-alt
-                                        input#user.form-control(placeholder='user' type='text' aria-label='user')
+                                        input#user.form-control(placeholder='Usuario' type='text' aria-label='Usuario')
 
                                 .form-group
 
                                     .form-group
-                                        label(for='pass') Password
+                                        label(for='pass') Contraseña
                                         .input-group.mb-4
                                             .input-group-prepend
                                                 span.input-group-text
                                                     span.fas.fa-unlock-alt
-                                            input#pass.form-control(placeholder='Password' type='password' aria-label='Password' required='')
+                                            input#pass.form-control(placeholder='Contraseña' type='password' aria-label='Contraseña' required='')
 
-                                button.btn.btn-block.btn-primary#login Sign in
+                                button.btn.btn-block.btn-primary#login Registro
                                 center
-                                    | Leganux (c) 2021-2022 All rights reserved
+                                    | Jasson (c) 2022 All rights reserved
                                     br
-                                    a(href="https://leganux.net" target="_blank") Leganux.net
-                                    br
-                                    a(href="https://demo.themesberg.com/neumorphism-ui/" target="_blank") Neumorphism template
+                                    a(href="https://www.npmjs.com/package/big-head" target="_blank") Powered by big-head
 
 // Core
 each val in Assets.js
