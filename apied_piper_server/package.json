@@ -10,6 +10,7 @@
   "author": "Angel Erick Cruz Olivera",
   "license": "ISC",
   "dependencies": {
-    "apied-piper": "^3.0.6"
+    "apied-piper": "^3.0.6",
+    "bcrypt": "^5.1.0"
   }
 }
