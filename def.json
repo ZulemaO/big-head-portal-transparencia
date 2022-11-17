@@ -1,0 +1,24 @@
+{
+  "users": {
+    "operation": {
+      "all": true
+    },
+    "definition": {
+      "art": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "date": {
+        "type": "number"
+      },
+      "link": {
+        "type": "string"
+      }
+    },
+    "datatable_search_fields": [
+      "name"
+    ]
+  }
+}
