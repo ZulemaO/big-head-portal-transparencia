@@ -1,7 +1,7 @@
 # big-head-portal-transparencia
 Proyecto para la Secretaría de Contraloría del Estado de Hidalgo para la Dirección General de Políticas de Transparencia y Anticorrupción. 
 
-Manual Técnico para su despliegue en Windows 
+# Manual Técnico para su despliegue en Windows
 1.	Requerimientos técnicos 
 Es necesario para correr dicha aplicación los siguientes requerimientos técnicos ya instalados dentro servidor/equipo dependiendo el sistema operativo para el sistema: 
 •	Node.js en su última versión. (Preferentemente la versión '18.12.1'). 
