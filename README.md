@@ -1,5 +1,5 @@
 # big-head-portal-transparencia
-Proyecto para la Secretaría de Contraloría del Estado de Hidalgo para la Dirección General de Políticas de Transparencia y Anticorrupción. 
+Proyecto de prácticas profesionales para la Secretaría de Contraloría del Estado de Hidalgo para la Dirección General de Políticas de Transparencia y Anticorrupción. Basada en big-head.
 
 # Manual Técnico para su despliegue en Windows
 1.	Requerimientos técnicos 
