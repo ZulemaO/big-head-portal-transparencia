@@ -14,7 +14,7 @@
     "apiato",
     "apied-piper"
   ],
-  "author": "Angel Erick Cruz Olivera &",
+  "author": "Jasson Espinosa",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
